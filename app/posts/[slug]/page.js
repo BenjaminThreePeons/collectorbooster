@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { client } from "../sanity/lib/client";
-import { POSTS_QUERY } from "../sanity/lib/queries";
+import { POSTS_QUERY } from "../../sanity/lib/queries";
 
 const options = { next: { revalidate: 30 } };
 
